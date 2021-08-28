@@ -2,5 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/user/public_html/test
- - /bin/cp public/index.html $DEPLOYPATH
- 
+ - /bin/cp public/chunk-map.json $DEPLOYPATH
